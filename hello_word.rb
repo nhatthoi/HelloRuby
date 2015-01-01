@@ -1,5 +1,8 @@
-def say_hello
-	p "Hello, world!"
+class Greeting
+	def say_hello
+		p "Hello, world!"
+	end
 end
 
-say_hello
+greeting = Greeting.new 
+greeting.say_hello
