@@ -1,8 +1,8 @@
 class Greeting
-	def say_hello
-		p "Hello, world!"
-	end
+  def say_hello name
+    p "Hello, #{name}!"
+  end
 end
 
 greeting = Greeting.new 
-greeting.say_hello
+greeting.say_hello 'Thoi'
